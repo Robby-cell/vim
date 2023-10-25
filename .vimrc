@@ -48,18 +48,12 @@ Plug '~/my-prototype-plugin'
 
 Plug 'preservim/nerdtree'
 
-" Initialize plugin system
-" - Automatically executes `filetype plugin indent on` and `syntax enable`.
-call plug#end()
-" You can revert the settings after the call like so:
-"   filetype indent off   " Disable file-type-specific indentation
-"   syntax off            " Disable syntax highlighting
-
-
+Plug 'prabirshrestha/asyncomplete.vim'
 Plug 'prabirshrestha/vim-lsp'
-
+Plug 'prabirshrestha/asyncomplete-lsp.vim'
 
 Plug 'itchyny/lightline.vim'
+
 
 " add this line to your .vimrc file
 Plug 'mattn/emmet-vim'
@@ -73,3 +67,12 @@ Plug 'jackguo380/vim-lsp-cxx-highlight'
 
 Plug 'prabirshrestha/vim-lsp'
 Plug 'mattn/vim-lsp-settings'
+
+
+" Initialize plugin system
+" - Automatically executes `filetype plugin indent on` and `syntax enable`.
+call plug#end()
+" You can revert the settings after the call like so:
+"   filetype indent off   " Disable file-type-specific indentation
+"   syntax off            " Disable syntax highlighting
+
